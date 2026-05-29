@@ -1,11 +1,15 @@
-<!-- Proposed list/info about all group members.  -->
-<!-- Each group member gets a card, organized into Professors, Postdocs, PhD TBCs, PhD EBCs, PhD AD, PhD CMCs, etc. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My GitHub Page</title>
+  <title>Ceramics and Coatings @ The University of Manchester</title>
+
+  <!-- Adding Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
   <style>
     :root {
       --primary-color: #03989e;
@@ -64,6 +68,7 @@
       margin-top: 40px;
     }
   </style>
+  
 </head>
 
 <!-- START OF EDITABLE SECTION -->
@@ -71,10 +76,17 @@
   <section class="section" id="Professors">
     <h2>Professors</h2>
     <div class="card">
-      <h3> Dr. Ping Xiao </h3>
-    </div>
-    <div class="card">
-    <h3></h3> Dr. Ying Chen </h3>
+      <div class="row">
+        <div class="col">
+          <img src='https://research.manchester.ac.uk/files-asset/238670893/Ping_Xiao_photo3.png/' class="img-fluid">
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <p><h2> Dr. Ping Xiao</h2></p>
+            <p>Body text. Lorem ipsum.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
