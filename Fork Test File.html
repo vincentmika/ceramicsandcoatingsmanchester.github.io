@@ -54,8 +54,10 @@
 
     .card {
       background: white;
-      padding: 20px;
+      padding: 30px;
+      padding-top: 0px;
       margin: 20px 0;
+      margin-top: 0px;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
@@ -67,6 +69,11 @@
       font-size: 0.9em;
       margin-top: 40px;
     }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto; 
+    }
   </style>
   
 </head>
@@ -75,20 +82,23 @@
 <body>
   <section class="section" id="Professors">
     <h2>Professors</h2>
-    <div class="card">
+    
+<div class="card">
+  <div class="row">
+    <div class="col">
+      <p><h3>Dr. Ping Xiao</h3></p>
       <div class="row">
-        <div class="col">
+        <div class="col-8 col-sm-6">
           <img src='https://research.manchester.ac.uk/files-asset/238670893/Ping_Xiao_photo3.png/' class="img-fluid">
         </div>
-        <div class="col">
-          <div class="card-body">
-            <p><h2> Dr. Ping Xiao</h2></p>
-            <p>Body text. Lorem ipsum.</p>
-          </div>
+        <div class="col-4 col-sm-6">
+          <p>Body text. Lorem ipsum.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</div>
 
+</section>
 </body>
 </html>
